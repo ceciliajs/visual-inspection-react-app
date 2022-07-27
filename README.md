@@ -1,5 +1,5 @@
 # React Application using Maximo Visual Inspection APIs
-Create your own dashboard, and file uploading for Maximo Visual Inspection using React. This will show how you can maximize your Maximo Visual Inspection Platform APIs. (est. 30 - 45 mins)
+Create your own dashboard, and file uploading form for Maximo Visual Inspection using React. This will show how you can maximize your Maximo Visual Inspection Platform APIs. (est. 30 - 45 mins)
 
 ## What's being used
     - React
@@ -14,7 +14,7 @@ Create your own dashboard, and file uploading for Maximo Visual Inspection using
 ## Prerequisites
 
 1. You will need access to a Maximo Visual Inspection server. 
-2. 1 model trained and deployed on the training server. 
+2. 1 model trained and deployed with advanced settings on the training server. 
 3. Maximo Visual Inspection iOS Application set up.
 
 In order to use this application, it is recommended to have experience in code editors and basics in Maximo Visual Inspection.
@@ -31,7 +31,7 @@ In order to use this application, it is recommended to have experience in code e
 
 ### Dashboard.js
 
-- This component creates a "GET" request to the dataset and then uses the reponse to count the number of failed and passed inspections. Then, you will create a dashboard from those numbers. 
+- This component creates a "GET" request to the dataset and then uses the response to count the number of failed and passed inspections. Then, you will create a dashboard from those numbers. 
 
 ### UploadForm.js
 
@@ -39,7 +39,7 @@ In order to use this application, it is recommended to have experience in code e
 
 ### UploadSuccess.js
 
-- This component creates a display message when your file was uploaded correctly to the Maximo Visual Inspection training server. 
+- This component creates a display message when your file was uploaded successfully to the Maximo Visual Inspection training server. 
 
 ### style.css
 
@@ -67,7 +67,7 @@ There are some variables throughout the application that you will have to get fr
 2. Go to the navigation menu on the left hand side and select "Models" then select the checkbox of the model you will be working with. This will turn the "Deploy Model" button blue, select that button.
 3. In the pop up box, at the top right corner switch on "Advanced deployment". 
 4. When "Inference Results" pops up, select the "Save" radio button. 
-5. When "Data set" dropdown is no longer grayed out, select the dataset you want the images from your inspection to be saved too. Then "Deploy" button.
+5. When "Data set" dropdown is no longer grayed out, select the dataset you want the images from your inspection to be saved too. Then "Deploy" blue button.
 6. Once the model is finished deploying, go to the navigation menu on the left hand side and select "Deployed models"
 7. Select the hyperlink of your model, and copy the Deployed model API endpoint in the middle of the page. This will be your "DEPLOYED_MODEL_API_ENDPOINT" variable.
 
