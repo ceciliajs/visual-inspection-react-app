@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+  }
+
+.navbar {
+    justify-content: space-evenly;
+    background-color: #161616;
+    height: 100vh;
+    width: 90px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    padding: 10px;
+}
+li:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.title {
+    position: fixed;
+    top: 0px;
+    left: 490px;
+    margin: 0;
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    width:390px;
+    height: 40px;
+
+}
+
+.title2 {
+    position: fixed;
+    top: 40px;
+    left: 490px;
+    margin: 0;
+    background-color: #161616;
+    color: white;
+    width:390px;
+    height: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin: 0;
+
+}
+
+.img1 {
+    height: 400px;
+    width:390px;
+    position: fixed;
+    top: 200px;
+    left: 490px;
+    margin: 0;
+
+}
+
+h5 {
+    background-color: #21272a; 
+    color: white;
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    width: 220px;
+    text-align: center;
+    position: fixed;
+    top: 110px;
+    left: 570px;
+    margin: 0;
+
+    
+}
+
+.loadButton{
+
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    background-color: #0f62fe;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 645px;
+    margin: 0;
+
+}
+
+.parts-dashboard1 {
+    background-color: #21272a; 
+    color: white;
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    width: 220px;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left:300px;
+    margin: 0;
+}
+
+.parts-dashboard2 {
+    background-color: #21272a; 
+    color: white;
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    width: 220px;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left:700px;
+    margin: 0;
+}
+
+.parts-dashboard1-2 {
+    background-color: white; 
+    color: #21272a;
+    border: solid;
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 100px;
+    width: 220px;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    left:300px;
+    margin: 0;
+}
+
+.parts-dashboard2-2 {
+    background-color: white; 
+    color: #21272a;
+    border: solid;
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 100px;
+    width: 220px;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    left:700px;
+    margin: 0;
+}
+
+.refreshButton {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    background-color: #0f62fe;
+    color: white;
+    position: fixed;
+    top: 450px;
+    left: 560px;
+    margin: 0;
+}
+
+.inputUpload {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    background-color: #0f62fe;
+    color: white;
+    position: fixed;
+    top: 450px;
+    left: 830px;
+    margin: 0;
+    z-index: 950;
+}
+
+.inputFile {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 30px;
+    position: fixed;
+    top: 450px;
+    left: 315px;
+    margin: 0;
+    z-index: 950;
+}
+
+.uploadFile {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 100px;
+    border: solid;
+    position: fixed;
+    top: 300px;
+    left: 305px;
+    margin: 0;
+    padding-bottom: 100px;
+    z-index: 900;
+}
+
+.success {
+    font-family: "IBM Plex Sans Condensed";
+    font-size: 100px;
+    position: fixed;
+    top: 300px;
+    left: 490px;
+    margin: 0;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+      }
+    
+    .navbar {
+        justify-content: space-evenly;
+        background-color: #4a4949;
+        height: 100vh;
+        width: 90px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+    li {
+        padding: 10px
+    }
+
+    li a.active {
+        background-color: #f0e7e7;
+        color: white;
+      }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+    
+    .title {
+        position: fixed;
+        top: 0px;
+        left: 90px;
+        margin: 0;
+        background-color: #4a4949;
+        text-align: left;
+        color: white;
+        width:600px;
+        height: 40px;
+    
+    }
+    
+    .title2 {
+        position: fixed;
+        top: 20px;
+        left: 90px;
+        margin: 0;
+        background-color: #4a4949;
+        color: white;
+        width:600px;
+        height: 20px;
+        text-align: left;
+        font-style: italic;
+        font-size: 12px;
+        margin: 0;
+    
+    }
+    
+    .img1 {
+        height: 150px;
+        width:150px;
+        position: fixed;
+        top: 150px;
+        left: 190px;
+        margin: 0;
+    
+    }
+    
+    h5 {
+        background-color: #3e4447; 
+        color: white;
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 20px;
+        width: 220px;
+        text-align: center;
+        position: fixed;
+        top: 80px;
+        left: 160px;
+        margin: 0;
+    
+        
+    }
+    
+    .loadButton{
+    
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 20px;
+        background-color: #5b8eee;
+        color: white;
+        position: fixed;
+        top: 340px;
+        left: 235px;
+        margin: 0;
+    
+    }
+    
+    .parts-dashboard1 {
+        background-color: #3e4447; 
+        color: white;
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 25px;
+        width: 220px;
+        text-align: center;
+        position: fixed;
+        top: 20px;
+        left:100px;
+        margin: 0;
+    }
+    
+    .parts-dashboard2 {
+        background-color: #3e4447; 
+        color: white;
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 25px;
+        width: 220px;
+        text-align: center;
+        position: fixed;
+        top: 20px;
+        left:330px;
+        margin: 0;
+    }
+    
+    .parts-dashboard1-2 {
+        background-color: white; 
+        color: #3e4447;
+        border: solid;
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 50px;
+        width: 220px;
+        text-align: center;
+        position: fixed;
+        top: 150px;
+        left:100px;
+        margin: 0;
+    }
+    
+    .parts-dashboard2-2 {
+        background-color: white; 
+        color: #3e4447;
+        border: solid;
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 50px;
+        width: 220px;
+        text-align: center;
+        position: fixed;
+        top: 150px;
+        left:330px;
+        margin: 0;
+    }
+    
+    .refreshButton {
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 30px;
+        background-color: #5b8eee;
+        color: white;
+        position: fixed;
+        top: 250px;
+        left: 265px;
+        margin: 0;
+    }
+    
+    .inputUpload {
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 20px;
+        background-color: #5b8eee;
+        color: white;
+        position: fixed;
+        top: 140px;
+        left: 115px;
+        margin: 0;
+        z-index: 950;
+    }
+    
+    .inputFile {
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 20px;
+        position: fixed;
+        top: 100px;
+        left: 115px;
+        margin: 0;
+        z-index: 950;
+    }
+    
+    .uploadFile {
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 50px;
+        border: solid;
+        position: fixed;
+        top: 20px;
+        left: 105px;
+        margin: 0;
+        padding-bottom: 100px;
+        z-index: 900;
+    }
+    
+    .success {
+        font-family: "IBM Plex Sans Condensed";
+        font-size: 50px;
+        position: fixed;
+        top: 20px;
+        left: 125px;
+        margin: 0;
+    
+    }
+  }
