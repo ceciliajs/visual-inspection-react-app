@@ -59,7 +59,7 @@ There are some `variables` throughout the application that you will have to get 
 
 1. Login to your Maximo Visual Inspection environment.
 2. Go to the navigation menu on the left hand side and select "Data sets" then select the data set you will be working with. 
-3. Go to the url at the top of your page and copy it. The beginning will be your `MAS_URL` and the `DATASET_ID` will be the series of letters and numbers at the end. ex. https://wwdemo.visualinspection.wwdemomas8.gtm-pat.com/#/datasets/97ee68fa-3bfa-447a-9702-218e9dddf999 (note: # will be replaced with api)
+3. Go to the url at the top of your page and copy it. The beginning will be your `MAS_URL` and the `DATASET_ID` will be the series of letters and numbers at the end. ex. https://wwdemo.visualinspection.wwdemomas8.gtm-pat.com/#/datasets/97ee68fa-3bfa-447a-9702-218e9dddf999 (note: `#` will be replaced with `api`)
 
 ### Instructions to get your Deployed Model API Endpoint
 
