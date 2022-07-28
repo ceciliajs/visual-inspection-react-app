@@ -53,16 +53,16 @@ In order to use this application, it is recommended to have experience in code e
 ​
 - `gh repo clone ceciliajs/visual-inspection-react-app`
 ​
-1. Navigate to the root directory of this project on your workstation, and then into the `my-app` sub-directory of the project
+2. Navigate to the root directory of this project on your workstation, and then into the `my-app` sub-directory of the project
 ​
 - `cd $PATH_WHERE_THIS_PROJECT_LIVES_ON_YOURWORKSTATION;`
 - `cd main-folder/my-app`
 ​
-1. Install the required dependencies, listed in package.json 
+3. Install the required dependencies, listed in package.json 
 ​
 - `npm install -y`
 ​
-1. Finally, start the app!
+4. Finally, start the app!
 ​
 - `npm start`
 
