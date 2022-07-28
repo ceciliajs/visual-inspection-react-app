@@ -45,9 +45,34 @@ In order to use this application, it is recommended to have experience in code e
 
 - This is the stylesheet for the UI. Please free free to change the UI as you like and get creative. 
 
+
+## Getting Started
+
+​
+1. Clone this repository to your workstation
+​
+`gh repo clone ceciliajs/visual-inspection-react-app`
+​
+1. Navigate to the root directory of this project on your workstation, and then into the `my-app` sub-directory of the project
+​
+`cd $PATH_WHERE_THIS_PROJECT_LIVES_ON_YOURWORKSTATION;`
+`cd main-folder/my-app`
+​
+1. Install the required dependencies, listed in package.json 
+​
+`npm install -y`
+​
+1. Finally, start the app!
+​
+`npm start`
+
+​
+Note: Navigate to [http://localhost:3000/](http://localhost:3000/) on your browser to view the application running on your local workstation!
+
 ## Variables
 
 There are some `variables` throughout the application that you will have to get from your Maximo Visual Inspection environment. 
+
 
 ### Instructions to get your API Key
 
@@ -79,5 +104,6 @@ There are some `variables` throughout the application that you will have to get 
 - [React Router](https://reactrouter.com/)
 - [Contact an IBMer](https://www.ibm.com/products/maximo-visual-inspection-mobile)
 
+## Contribute
 
-
+- Feel free to create a pull request for any updates or feedback. 
