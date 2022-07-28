@@ -102,7 +102,7 @@ There are some `variables` throughout the application that you will have to get 
 - [Maximo Visual Inspection APIs](https://public.dhe.ibm.com/systems/power/docs/powerai/api860.html#)
 - [Axios](https://axios-http.com/docs/intro)
 - [React Router](https://reactrouter.com/)
-- [Contact an IBMer](https://www.ibm.com/products/maximo-visual-inspection-mobile)
+- [Contact an IBMer](https://www.ibm.com/products/maximo-visual-inspection-mobile) (Select Book a consultation)
 
 ## Contribute
 
