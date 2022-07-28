@@ -61,13 +61,18 @@ In order to use this application, it is recommended to have experience in code e
 3. Install the required dependencies, listed in package.json 
 ​
     - `npm install -y`
+
+4. From the variable instructions below:
+    - Look in the <b>Home.js</b> component and update your `MAS_URL`, `API_KEY`, & `DATASET_ID` with your specfic credentials.
+    - Look in the <b>Dashboard.js</b> component and update your `MAS_URL`, `API_KEY`, & `DATASET_ID` with your specfic credentials.
+    - Look in the <b>UploadForm.js</b> component and update your `API_KEY` & `DEPLOYED_MODEL_API_ENDPOINT` with your specfic credentials.
 ​
 4. Finally, start the app!
 ​
     - `npm start`
 
 ​
-Note: Navigate to [http://localhost:3000/](http://localhost:3000/) on your browser to view the application running on your local workstation!
+Note: Navigate to [http://localhost:3000/](http://localhost:3000/) on your browser to view the application running on your local workstation! Run some inspections and watch the changes! 
 
 ## Variables
 
