@@ -12,7 +12,7 @@ function Dashboard() {
   }, []);
 
   function grabNumOfDefects() {
-    axios.get(`MAS_URL/api/datasets/DATASET_ID/files`, {
+    axios.get(`MAS_URL/api/datasets/97ee68fc-3bfc-447e-9702-218e9dddf065/files`, {
       headers: {
         'x-auth-token': 'API_KEY',
       }

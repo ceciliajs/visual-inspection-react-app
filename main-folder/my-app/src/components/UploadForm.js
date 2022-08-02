@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import axios from 'axios';
-import UploadSuccess from "./UploadSuccess";
+import UploadSuccess from "./UploadSuccess.js";
+import { default as FormData } from "form-data";
 
 const UploadForm = () => {
   // a local state to store the currently selected file.
@@ -9,8 +10,6 @@ const UploadForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    var FormData = require('form-data');
-
     var data = new FormData();
     data.append('filename', selectedFile.name);
     data.append('files', selectedFile);
