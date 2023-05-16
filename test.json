@@ -1,0 +1,81 @@
+{
+    "webAPIId": "40c401bf-b374-440e-ab5e-69365d4cf7a6",
+    "imageUrl": "http://pub8987-service:9080/pub8987-api/uploads/temp/40c401bf-b374-440e-ab5e-69365d4cf7a6/2a12da89-0da3-438f-9895-92838823ca90.jpg",
+    "classified": [
+        {
+            "label": "vertical_fill",
+            "confidence": 0.9823503494262695,
+            "xmin": 73,
+            "ymin": 0,
+            "xmax": 171,
+            "ymax": 376,
+            "anomaly": {
+                "score": 0.6576327085494995,
+                "anomaly_threshold": 0.5,
+                "detail_data": "b'iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAbUlEQVQoFX3BwXHDMAAEMWz/RZ8p+6VkhkAucpGLXOQiF7nIRS6S+SdDYv6IITJvYYiYlzBEzEsYIuYlDAnzkmMkzFfmkWMk5ifzyDGSiQnzyDFyhAnzlWNyxByZnxg5Yh7NT4Zc5CIXuchFLj4YKiEdVBZJHAAAAABJRU5ErkJggg=='",
+                "regions": [
+                    {
+                        "score": 0.5257765650749207,
+                        "xmin": 137,
+                        "ymin": 32,
+                        "xmax": 142,
+                        "ymax": 49,
+                        "hot_spot": {
+                            "x": 139,
+                            "y": 39
+                        }
+                    },
+                    {
+                        "score": 0.657325804233551,
+                        "xmin": 77,
+                        "ymin": 114,
+                        "xmax": 91,
+                        "ymax": 262,
+                        "hot_spot": {
+                            "x": 82,
+                            "y": 213
+                        }
+                    },
+                    {
+                        "score": 0.6145642995834351,
+                        "xmin": 142,
+                        "ymin": 120,
+                        "xmax": 162,
+                        "ymax": 294,
+                        "hot_spot": {
+                            "x": 152,
+                            "y": 228
+                        }
+                    },
+                    {
+                        "score": 0.5583588480949402,
+                        "xmin": 108,
+                        "ymin": 217,
+                        "xmax": 122,
+                        "ymax": 295,
+                        "hot_spot": {
+                            "x": 117,
+                            "y": 252
+                        }
+                    },
+                    {
+                        "score": 0.5554292798042297,
+                        "xmin": 86,
+                        "ymin": 238,
+                        "xmax": 102,
+                        "ymax": 301,
+                        "hot_spot": {
+                            "x": 90,
+                            "y": 279
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "result": "success",
+    "saveInferenceResults": {
+        "datasetId": "141b7a4f-afca-4b20-bee9-b3b60fc22fad",
+        "fileId": "bc349eff-14fb-4271-b7a5-0998b4627d55"
+    }
+}

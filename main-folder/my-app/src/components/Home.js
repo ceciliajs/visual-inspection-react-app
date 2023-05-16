@@ -11,9 +11,9 @@ function Home() {
 
   function grabArrayImageDataSet() {
     console.log("grabimagedata called");
-    axios.get(`MAS_URL/api/datasets/DATASET_ID/files`, {
+    axios.get(`https://mvi87.visualinspection.pub8987.apps.visualinspection.wdc04roks1.maximovisualinspection.com/api/datasets/141b7a4f-afca-4b20-bee9-b3b60fc22fad/files`, {
       headers: {
-        'x-auth-token': 'API_KEY',
+        'x-auth-token': 'nVD6-bIG6-bi5Q-UP6X',
       }
     })
       .then(response => {
@@ -21,9 +21,9 @@ function Home() {
         const resData = response.data
         const imageId = resData.map((currentImageId) => currentImageId._id)
         const lastPicture = imageId[0]
-        axios.get(`MAS_URL/api/datasets/DATASET_ID/files/${lastPicture}/download`, {
+        axios.get(`https://mvi87.visualinspection.pub8987.apps.visualinspection.wdc04roks1.maximovisualinspection.com/api/datasets/141b7a4f-afca-4b20-bee9-b3b60fc22fad/files/${lastPicture}/download`, {
           headers: {
-            'x-auth-token': 'API_KEY',
+            'x-auth-token': 'nVD6-bIG6-bi5Q-UP6X',
           },
           responseType: 'blob'
         }) //https://thewebdev.info/2021/09/26/how-to-display-binary-data-as-image-in-react/ https://solveforum.com/forums/threads/solved-how-to-receive-blob-response-type-from-axios-request-with-node-and-gcp-function.408393/
