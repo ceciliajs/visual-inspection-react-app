@@ -12,9 +12,9 @@ function Dashboard() {
   }, []);
 
   function grabNumOfDefects() {
-    axios.get(`MAS_URL/api/datasets/97ee68fc-3bfc-447e-9702-218e9dddf065/files`, {
+    axios.get(`https://mvi87.visualinspection.pub8987.apps.visualinspection.wdc04roks1.maximovisualinspection.com/api/datasets/141b7a4f-afca-4b20-bee9-b3b60fc22fad/files`, {
       headers: {
-        'x-auth-token': 'API_KEY',
+        'x-auth-token': 'nVD6-bIG6-bi5Q-UP6X',
       }
     })
       .then(response => {
@@ -26,11 +26,12 @@ function Dashboard() {
         for (var i = 0; i < resData.length; i++) {
           if (resData[i].upload_type === "inference_result") {
             const failLabelsTotal = resData[i].tag_list[0].tag_name
-            if (failLabelsTotal === 'bad_dented') {
+            if (failLabelsTotal === 'vertical_fill') {
               countDef++
-            } else if (failLabelsTotal === 'good') {
-              countPass++
             }
+            // } else if (failLabelsTotal === 'good') {
+            //   countPass++
+            // }
 
           }
 

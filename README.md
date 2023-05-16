@@ -31,7 +31,7 @@ In order to use this application, it is recommended to have experience in code e
 
 ### Dashboard.js
 
-- This component creates a "GET" request to the dataset and then uses the response to count the number of failed and passed inspections. Then, you will create a dashboard from those numbers. 
+- This component creates a "GET" request to the dataset and then uses the response to count the number of failed and passed inspections. Then, you will create a dashboard from those numbers. Note: You must changed your objects to what you labeled them. This file shows "bad_dented" as a failed object and "good" as a passing object. 
 
 ### UploadForm.js
 
